@@ -1,0 +1,26 @@
+# Dependencies and virtual environments
+**/node_modules/
+**/.venv/
+**/venv/
+
+# Build and runtime artifacts
+dist/
+build/
+runs/
+**/__pycache__/
+*.py[cod]
+**/.pytest_cache/
+
+# Large local benchmark downloads
+data/coco_vehicle_benchmark/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+!**/.env.example
+
+# Local databases and logs
+*.db
+*.db-*
+*.log

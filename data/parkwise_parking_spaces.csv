@@ -1,0 +1,21 @@
+space_code,lot_name,location,lot_capacity,level,floor,zone,status,space_type,accessible,ev_charging,latitude,longitude,last_updated
+A-01,Northgate Centre,Hyderabad,20,Level 01,Level 01,A,OCCUPIED,STANDARD,true,false,0.0,0.0,2026-10-03 11:55:02.219640
+A-02,Northgate Centre,Hyderabad,20,Level 01,Level 01,A,OCCUPIED,STANDARD,false,false,0.0,0.0,2026-10-03 11:55:02.221430
+A-03,Northgate Centre,Hyderabad,20,Level 01,Level 01,A,RESERVED,STANDARD,false,true,0.0,0.0,2026-10-03 11:55:02.213713
+A-04,Northgate Centre,Hyderabad,20,Level 01,Level 01,A,RESERVED,STANDARD,false,false,0.0,0.0,2026-10-03 11:55:02.213747
+B-01,Northgate Centre,Hyderabad,20,Level 01,Level 01,B,RESERVED,STANDARD,true,false,0.0,0.0,2026-10-03 11:55:02.213770
+B-02,Northgate Centre,Hyderabad,20,Level 01,Level 01,B,HELD,STANDARD,false,false,0.0,0.0,2026-10-03 11:55:02.213791
+B-03,Northgate Centre,Hyderabad,20,Level 01,Level 01,B,OCCUPIED,STANDARD,false,false,0.0,0.0,2026-10-03 11:55:02.213810
+B-04,Northgate Centre,Hyderabad,20,Level 01,Level 01,B,RESERVED,STANDARD,false,true,0.0,0.0,2026-10-03 11:55:02.213829
+C-01,Northgate Centre,Hyderabad,20,Level 01,Level 01,C,RESERVED,STANDARD,true,false,0.0,0.0,2026-10-03 11:55:02.213855
+C-02,Northgate Centre,Hyderabad,20,Level 01,Level 01,C,OCCUPIED,STANDARD,false,false,0.0,0.0,2026-10-03 11:55:02.213878
+C-03,Northgate Centre,Hyderabad,20,Level 01,Level 01,C,RESERVED,STANDARD,false,false,0.0,0.0,2026-10-03 11:55:02.213904
+C-04,Northgate Centre,Hyderabad,20,Level 01,Level 01,C,RESERVED,STANDARD,false,false,0.0,0.0,2026-10-03 11:55:02.213928
+D-01,Northgate Centre,Hyderabad,20,Level 01,Level 01,D,OCCUPIED,STANDARD,false,false,0.0,0.0,2026-10-03 11:55:02.213951
+D-02,Northgate Centre,Hyderabad,20,Level 01,Level 01,D,RESERVED,STANDARD,false,false,0.0,0.0,2026-10-03 11:55:02.213971
+D-03,Northgate Centre,Hyderabad,20,Level 01,Level 01,D,RESERVED,STANDARD,false,false,0.0,0.0,2026-10-03 12:43:26.329379
+D-04,Northgate Centre,Hyderabad,20,Level 01,Level 01,D,HELD,STANDARD,false,false,0.0,0.0,2026-10-03 11:55:02.214006
+E-01,Northgate Centre,Hyderabad,20,Level 01,Level 01,E,RESERVED,STANDARD,true,false,0.0,0.0,2026-10-03 11:55:02.214024
+E-02,Northgate Centre,Hyderabad,20,Level 01,Level 01,E,RESERVED,STANDARD,false,false,0.0,0.0,2026-10-03 11:55:02.214042
+E-03,Northgate Centre,Hyderabad,20,Level 01,Level 01,E,AVAILABLE,STANDARD,false,true,0.0,0.0,2026-10-03 11:55:02.214060
+E-04,Northgate Centre,Hyderabad,20,Level 01,Level 01,E,OCCUPIED,STANDARD,false,false,0.0,0.0,2026-10-03 11:55:02.214078

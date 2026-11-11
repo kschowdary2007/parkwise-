@@ -1,0 +1,124 @@
+{
+  "dataset": {
+    "name": "ljkeller/matchbox-car-parking-occupancy",
+    "image_based": true,
+    "record_count": 1726,
+    "feature_description": "32x32 RGB normalized pixels and 16-bin RGB histograms per channel",
+    "target_labels": [
+      "available",
+      "occupied"
+    ],
+    "missing_values_removed": 0,
+    "duplicate_values_removed": 0,
+    "corrupt_images_removed": 0,
+    "distribution": {
+      "available": 908,
+      "occupied": 818
+    },
+    "sample_records": [
+      {
+        "path": "data/matchbox/matchbox_cars_parkinglot/empty/roi_003e4da873a44f34a719bc9fe76978d9_empty.jpg",
+        "label": "available"
+      },
+      {
+        "path": "data/matchbox/matchbox_cars_parkinglot/empty/roi_004a880991fb418298519ca2616f3147_empty.jpg",
+        "label": "available"
+      },
+      {
+        "path": "data/matchbox/matchbox_cars_parkinglot/empty/roi_004dd78dd12a40139af20e4e442d94e1_empty.jpg",
+        "label": "available"
+      },
+      {
+        "path": "data/matchbox/matchbox_cars_parkinglot/occupied/roi_ff7f499bf585404a8eafe1e9858b86e8_occupied.jpg",
+        "label": "occupied"
+      },
+      {
+        "path": "data/matchbox/matchbox_cars_parkinglot/occupied/roi_ffa479398c4e41ceaf7d330b6cc6cef8_occupied.jpg",
+        "label": "occupied"
+      },
+      {
+        "path": "data/matchbox/matchbox_cars_parkinglot/occupied/roi_fff91c7d78e2472193ae94906cf048fb_occupied.jpg",
+        "label": "occupied"
+      }
+    ]
+  },
+  "dataset_split": {
+    "train": 1208,
+    "validation": 259,
+    "test": 259,
+    "train_percent": 70,
+    "validation_percent": 15,
+    "test_percent": 15
+  },
+  "comparison": [
+    {
+      "model_name": "Random Forest",
+      "accuracy": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1_score": 100.0,
+      "training_time_seconds": 0.422303,
+      "prediction_time_seconds": 0.058546,
+      "confusion_matrix": {
+        "true_positive": 122,
+        "true_negative": 137,
+        "false_positive": 0,
+        "false_negative": 0
+      }
+    },
+    {
+      "model_name": "XGBoost",
+      "accuracy": 99.23,
+      "precision": 100.0,
+      "recall": 98.36,
+      "f1_score": 99.17,
+      "training_time_seconds": 20.873705,
+      "prediction_time_seconds": 0.0305,
+      "confusion_matrix": {
+        "true_positive": 120,
+        "true_negative": 137,
+        "false_positive": 0,
+        "false_negative": 2
+      }
+    },
+    {
+      "model_name": "Decision Tree",
+      "accuracy": 94.98,
+      "precision": 95.8,
+      "recall": 93.44,
+      "f1_score": 94.61,
+      "training_time_seconds": 0.63155,
+      "prediction_time_seconds": 0.000584,
+      "confusion_matrix": {
+        "true_positive": 114,
+        "true_negative": 132,
+        "false_positive": 5,
+        "false_negative": 8
+      }
+    },
+    {
+      "model_name": "SVM (Linear)",
+      "accuracy": 83.78,
+      "precision": 97.62,
+      "recall": 67.21,
+      "f1_score": 79.61,
+      "training_time_seconds": 10.818866,
+      "prediction_time_seconds": 0.005499,
+      "confusion_matrix": {
+        "true_positive": 82,
+        "true_negative": 135,
+        "false_positive": 2,
+        "false_negative": 40
+      }
+    }
+  ],
+  "best_model": "Random Forest",
+  "evaluated_at": "2026-11-05T12:25:00Z",
+  "methodology": "Images were deduplicated, converted to RGB, resized to 32x32, normalized, augmented with RGB histograms, and split with stratified 70/15/15 sampling.",
+  "history_available": false,
+  "epochs": null,
+  "training_accuracy_history": null,
+  "validation_accuracy_history": null,
+  "training_loss_history": null,
+  "validation_loss_history": null
+}
